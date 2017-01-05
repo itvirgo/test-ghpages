@@ -30,6 +30,7 @@ Modify default Gemfile and let Bundler do the job
 -----------------------
 
 If you look at Gemfile you can see something like this
+
 ```rb
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -49,9 +50,14 @@ gem "minima", "~> 2.0"
 # gem "github-pages", group: :jekyll_plugins
 ```
 
-Because I wanted this to be used for github pages I modified a bit ...
-Commented the line `gem "jekyll", "3.3.1"`
-and uncommented the line `gem "github-pages", group: :jekyll_plugins`
+Because I wanted this to be used for github pages I modified a bit.
+I Commented the line
+
+```gem "jekyll", "3.3.1"```
+
+and uncommented the line
+
+```gem "github-pages", group: :jekyll_plugins```
 
 and execute bundler install
 
